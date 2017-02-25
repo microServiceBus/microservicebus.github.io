@@ -1,0 +1,59 @@
+
+html, body, #bg, #bg table, #bg td, #cont {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    cursor: default;
+    background: #181922 url(https://microservicebus.com/Images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.col {
+    padding-right: 1px;
+    padding-left: 1px;
+}
+.col:hover {
+ z-index: 1;
+}
+.blockcontainer {
+    background: rgba(0, 0, 0,1);
+    border: 1px solid #85c34a;
+    border-radius: 5px;
+    color : rgb(255, 255, 255);
+    /*padding: 0px 0px 0px 30px;*/
+    min-height: 200px;    
+    opacity: 0.6;
+}
+.blockcontainer:hover {
+    border: 2px solid #85c34a;
+    opacity:1;
+    color : rgb(255, 255, 255);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.blockTitle {
+    font-size: 2.0em;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 200px
+}
+.blockinfo {
+    background: rgba(0, 0, 0,1);
+    color : rgb(255, 255, 255);
+    min-height: 200px;    
+    opacity: 0.6;
+    padding: 0px 0px 0px 30px;
+}
